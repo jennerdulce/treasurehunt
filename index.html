@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+    <!-- <audio controls autoplay>
+      <source src="music.mp3" type="audio/mpeg">
+    </audio> -->
+    <link rel="icon" type="image/x-icon" href="coin.png">
+  </head>
+  <body>
+    <h1>Treasure Hunt</h1>
+    <img id="hero-image" src="https://tl.vhv.rs/dpng/s/18-182443_treasure-chest-png-png-transparent-png.png" alt="Picture of game">
+    <div id="description-rules">
+      <h2 class="title-class">How to play</h2>
+      <ul>
+        <li> The object of the game is to find the treasure</li>
+        <li> If you find the bomb you loose</li>
+        <li>If you find an empty square guess again</li>
+        <li>Have Fun!</li>
+      </ul>
+    </div>
+    <button onclick="restartGame()">Restart Game</button>
+    <table>
+      <tr>
+        <td id="1" onclick="treasure(1)">?</td>
+        <td id="2" onclick="treasure(2)">?</td>
+        <td id="3" onclick="treasure(3)">?</td>
+        <td id="4" onclick="treasure(4)">?</td>
+      </tr>
+      <tr>
+        <td id="5" onclick="treasure(5)">?</td>
+        <td id="6" onclick="treasure(6)">?</td>
+        <td id="7" onclick="treasure(7)">?</td>
+        <td id="8" onclick="treasure(8)">?</td>
+      </tr>
+      <tr>
+        <td id="9" onclick="treasure(9)">?</td>
+        <td id="10" onclick="treasure(10)">?</td>
+        <td id="11" onclick="treasure(11)">?</td>
+        <td id="12" onclick="treasure(12)">?</td>
+      </tr>
+      <tr>
+        <td id="13" onclick="treasure(13)">?</td>
+        <td id="14" onclick="treasure(14)">?</td>
+        <td id="15" onclick="treasure(15)">?</td>
+        <td id="16" onclick="treasure(16)">?</td>
+      </tr>
+    </table>
+    <footer>
+      <hr>
+      &copy Jenner and Geovanna |
+      <a href="https://www.google.com/" target="_blank">
+        Google
+      </a>
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+</html>
